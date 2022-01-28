@@ -22,3 +22,7 @@ Internal pictures from when BYD box was opened
 ## byd_be_connect
 
 Windows program for connecting to BYD battery and doing firmware update and diagnostics over WIFI
+
+## Manuals
+
+Usefull manuals from BYD webpage.
