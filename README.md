@@ -1,6 +1,6 @@
 # BYD battery
 
-Reverse engineer a 11kWh BYD HVM battery system
+Reverse engineering a 11kWh BYD HVM battery system, connected to a Fronius Gen24 Symo 5.0 Hybrid inverter
 
 ## Blockshema
 
@@ -14,6 +14,8 @@ Open with HHD Device Monitoring Studio
 ## Modbus RTU Registers
 
 Open .ods file with your favourite spreadsheet tool (e.g. LibreOffice Calc)
+The Battery has registers that the Fronius Inverter requests to read. There is also a write event that periodically appears (see logs)
+During startup more bus activity is present compared to sitting idle. This is most likely due to pre-charge handshake.
 
 ## Pictures
 
